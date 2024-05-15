@@ -6,6 +6,9 @@
 }
 body{
     background: #000000;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
 }
 .login-box{
     display: flex;
@@ -88,14 +91,12 @@ h3{
 @media (min-width: 800px){
     body{
         margin: 0;
-        display: flex;
     }
     .login-box{
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: space-between;
-
+        justify-content: space-evenly;
     }
     .logo{
         display: flex;
