@@ -12,5 +12,5 @@ function id1() {
 }
 
 function mouseOut() {
-    this.style.backgroundColor = 'darkblue'; // Access style of individual button
+    this.style.backgroundColor = 'darkblue'; 
 }
